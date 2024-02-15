@@ -4,25 +4,39 @@ The notebook presents a pipeline to predict Housing Prices, given 79 features th
 
 A) Segregation of Features: Features are segregated into three segments: Continuous, Categorical Values, Discrete Numerical Values
 
+
 B) Exploratory Data Analysis
 Metrics/Toos Used: Coefficient of Variation,  Box Plots, Correlation Matrix
+
 Outcome: To analyze the outliers, Relevance of certain features, and correlation between features
+
 
 C) Data Preprocessing
   I) Removing features with a huge amount of missing data
+  
   II) Imputation of Missing data for remaining columns via KNN Imputation for Numerical Data (continuous and discrete both)
+  
   III) Mode-Based Imputation of Object-typed Categorical Values
+  
   IV) Winsorizing of data to remove outliers
+  
   V) Removing the features which have a Coefficient of Variation of less than or equal to 1
+  
   VI) Splitting Object and Num type features and tokenizing Object-typed features, then combining the data
+  
   VII) Elimination of features based on a Mutual Info Classification Threshold (heuristically determined threshold)
+  
   VIII) Scaling the data via minmax scaler
+  
 
 D) Fitting the data in a KNN Model (n = 19)
 
+
 E) Evaluation of Root Mean Squared Error of log of the output (RMSE = 0.19838051208068913)
 
+
 F) Implementing K-Means Clustering for insights into the model (No useful insights obtained)
+
 
 G) Building a user-friendly interface using Gradio
 

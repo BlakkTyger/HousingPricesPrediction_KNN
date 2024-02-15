@@ -6,6 +6,7 @@ A) Segregation of Features: Features are segregated into three segments: Continu
 
 
 B) Exploratory Data Analysis
+
 Metrics/Toos Used: Coefficient of Variation,  Box Plots, Correlation Matrix
 
 Outcome: To analyze the outliers, Relevance of certain features, and correlation between features

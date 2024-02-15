@@ -12,21 +12,22 @@ Outcome: To analyze the outliers, Relevance of certain features, and correlation
 
 
 C) Data Preprocessing
-  I) Removing features with a huge amount of missing data
+
+    I) Removing features with a huge amount of missing data
   
-  II) Imputation of Missing data for remaining columns via KNN Imputation for Numerical Data (continuous and discrete both)
+    II) Imputation of Missing data for remaining columns via KNN Imputation for Numerical Data (continuous and discrete both)
   
-  III) Mode-Based Imputation of Object-typed Categorical Values
+    III) Mode-Based Imputation of Object-typed Categorical Values
   
-  IV) Winsorizing of data to remove outliers
+    IV) Winsorizing of data to remove outliers
   
-  V) Removing the features which have a Coefficient of Variation of less than or equal to 1
+    V) Removing the features which have a Coefficient of Variation of less than or equal to 1
   
-  VI) Splitting Object and Num type features and tokenizing Object-typed features, then combining the data
+    VI) Splitting Object and Num type features and tokenizing Object-typed features, then combining the data
   
-  VII) Elimination of features based on a Mutual Info Classification Threshold (heuristically determined threshold)
+    VII) Elimination of features based on a Mutual Info Classification Threshold (heuristically determined threshold)
   
-  VIII) Scaling the data via minmax scaler
+    VIII) Scaling the data via minmax scaler
   
 
 D) Fitting the data in a KNN Model (n = 19)
